@@ -1,5 +1,5 @@
 import os
-from PIL import Image
+from PIL import Image # pip install Pillow
 import datetime
 from pathlib import Path
 
@@ -8,7 +8,7 @@ def GetStaticImage():
   return "colour-wheel.jpg"
 
 def ConvertColours(imageObject):
-  # convert to greyscale
+  # convert to greyscale, 256 different shades
   return imageObject.convert(mode="L")
 
 def PixeliseImage(imageFile, desiredSizeTuple):
