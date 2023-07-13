@@ -1,0 +1,1 @@
+Symbol	Name	Price	Ex-Date	Dividend	Div %	Initial Div %
